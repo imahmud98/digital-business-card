@@ -9,45 +9,38 @@
 </head>
 <body>
     <div class="card-container">
+        <div class="decorative-line left"></div>
+        <div class="decorative-line right"></div>
+        
         <div class="profile-section">
             <div class="profile-image">
                 <img src="assets/profile.jpg" alt="Profile Picture" id="profileImage">
             </div>
             <h1 id="userName">Loading...</h1>
             <p id="jobTitle">Loading...</p>
-            <p id="company">Loading...</p>
         </div>
 
         <div class="action-buttons">
-            <button onclick="saveContact()" class="primary-button">
-                <i class="fas fa-user-plus"></i> Save Contact
+            <button onclick="saveContact()" class="action-button">
+                Save contact
             </button>
-            <button onclick="callMe()" class="primary-button">
-                <i class="fas fa-phone"></i> Call Me
+            <button onclick="navigateToOffice()" class="action-button">
+                Navigate to my office
             </button>
-            <button onclick="emailMe()" class="primary-button">
-                <i class="fas fa-envelope"></i> Email Me
-            </button>
-            <button onclick="navigateToOffice()" class="primary-button">
-                <i class="fas fa-map-marker-alt"></i> Navigate to My Office
-            </button>
-            <button onclick="visitWebsite()" class="primary-button">
-                <i class="fas fa-globe"></i> Discover My World
-            </button>
-            <button onclick="bookAppointment()" class="primary-button">
-                <i class="fas fa-calendar-alt"></i> Book an Appointment
+            <button onclick="bookAppointment()" class="action-button">
+                Book an appointment
             </button>
         </div>
 
         <div class="social-links">
-            <a href="#" id="githubLink" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i>
+            <a href="#" id="facebookLink" target="_blank" rel="noopener">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" id="twitterLink" target="_blank" rel="noopener">
+                <i class="fab fa-twitter"></i>
             </a>
             <a href="#" id="linkedinLink" target="_blank" rel="noopener">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="#" id="websiteLink" target="_blank" rel="noopener">
-                <i class="fas fa-globe"></i>
+                <i class="fab fa-linkedin-in"></i>
             </a>
         </div>
 
