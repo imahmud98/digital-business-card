@@ -1,16 +1,16 @@
 const config = {
     // Personal Information
     personal: {
-        name: "Your Name",
-        jobTitle: "Job Title",
-        phone: "+1234567890",
-        email: "your.email@example.com",
-        website: "https://yourwebsite.com"
+        name: "Shakib Izaz Mahmud",
+        jobTitle: "IT Security Officer",
+        phone: "+8801886604213",
+        email: "izaz.mahmud@thepremierbankplc.com",
+        website: "https://imahmud98.github.io/"
     },
     
     // Office Location
     office: {
-        address: "123 Business Street, City, Country",
+        address: "Head Office, Iqbal Centre, 6th Floor, 42 Kemal Ataturk Avenue, Banani, Dhaka - 1213, Bangladesh",
         googleMapsUrl: "https://goo.gl/maps/your-location"
     },
     
@@ -28,7 +28,7 @@ const config = {
     
     // Company Details
     company: {
-        name: "Your Company Name",
-        website: "https://company-website.com"
+        name: "The Premier Bank PLC.",
+        website: "https://premierbankltd.com/pbl/"
     }
 };
